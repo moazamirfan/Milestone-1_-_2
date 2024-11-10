@@ -1,0 +1,168 @@
+
+.my-cv{
+    padding: 3em;
+}
+.cv-container{
+    position: relative;
+    background-color: #2d1e3a;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: white;
+    padding: 2em 1em;
+    box-shadow: 153px 189px 248px 41px rgba(183, 160, 209, 0.973) inset;
+    -webkit-box-shadow: 153px 189px 248px 41px rgba(255,255,255,0.27) inset;
+    -moz-box-shadow: 153px 189px 248px 41px rgba(255,255,255,0.27) inset;
+}
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.image img{
+    border-radius: 10px;
+}
+.column-1 .name{
+    text-align: center;
+}
+.column-1 a{
+    text-decoration: none;
+    color: black;
+}
+.column-1 h3{
+    padding: 0;
+    margin: 3px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.skills h2{
+    margin-left: 5px;
+}
+.skills h4{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    transition: all 1s ease;
+}
+.dot{
+    width: 8px;
+    height: 8px;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+.column-2{
+    width: 75%;
+    color: white;
+    padding: 3em 3em;
+}
+.column-2 .objective p{
+    padding-right: 5em;
+    text-align: justify;
+    line-height: 1.5;
+}
+.column-2 .Education{
+    position: relative;
+    z-index: 1;
+}
+.column-2 .Education h6{
+    padding: 0;
+    margin: 5px 0;
+}
+@media screen and (max-width: 1170px){
+    .column-1{
+        width: 35%;
+    }
+    .column-2{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 700px){
+    .my-cv{
+        padding: 1rem;
+    }
+    .cv-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .column-1{
+        width: 100%;
+        padding: 0;
+    }
+    .column-2{
+        width: 100%;
+    }
+    .image{
+        margin: 2em 0;
+    }
+    .column-1 h3{
+        margin: 3px 1em;
+    }
+    .skills{
+        padding: 1em 1em;
+    }
+    
+}
+.social-links{
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+.icon{
+    font-size: 25px;
+}
+.btn a{
+    padding: 7px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn a i, span{
+    color: white;
+    z-index: 1;
+}
+.btn a:hover{
+    background-color: black;
+}
+button{
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(207, 136, 85);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.custom-shape-divider-bottom-1731180135 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1731180135 svg {
+    position: relative;
+    display: block;
+    width: calc(199% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1731180135 .shape-fill {
+    fill: #9013FE;
+}
+.icon{
+    cursor: pointer;
+}
+.social-links a i:hover{
+    background-color: #2d1e3a;
+}
